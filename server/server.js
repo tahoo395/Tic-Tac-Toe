@@ -1,6 +1,6 @@
 let players = []
 
-const io = require('socket.io')(5000, {
+const io = require('socket.io')(process.env.PORT, {
     cors: {
         origin: '*',
     }
