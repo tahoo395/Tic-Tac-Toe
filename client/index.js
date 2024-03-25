@@ -10,7 +10,7 @@ import { eraseGameData } from "./functionalities/eraseGameData";
 import { ifInputNotValidated } from "./functionalities/ifInputNotValidated";
 
 
-const socket = io("http://localhost:5000");
+const socket = io("https://tic-tac-toe-l1wv.onrender.com/");
 
 
 
